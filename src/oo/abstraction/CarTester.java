@@ -21,7 +21,6 @@ public class CarTester{
      for(int i=0;i<=9;i++){
     	 System.out.println(i);
      }
-     System.out.println(i);
      
      class AA{
     	 

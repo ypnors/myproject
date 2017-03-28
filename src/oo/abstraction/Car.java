@@ -1,11 +1,12 @@
 package oo.abstraction;
 
- class Car{
+public class Car{
     String brand;
     int cc;
     String name;
     String type;
     int status;
+    float milage;
     
     public Car(String brand,int cc,String name,String type){
         this.brand=brand;
@@ -16,5 +17,18 @@ package oo.abstraction;
 
 	public Car(String string, String string2, int i) {
 		// TODO Auto-generated constructor stub
+	}
+	
+	public void setMilage(int m){
+		milage=m;
+	}
+	
+	public float addMilage(int m){
+		milage =milage+m;
+		return milage;
+	}
+	
+	public void maintain(){
+		status=5;
 	}
 }
