@@ -5,6 +5,11 @@ public class Student {
 	int math;
 	int chinese;
 	static int pass=60;
+	static{
+		System.out.println("STATIC!!");
+		//System.out.println(english);
+		System.out.println(pass);
+	}
 	public Student(int english,int math,int chinese){
 		super();
 		this.english =english;

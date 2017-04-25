@@ -7,6 +7,10 @@ public class Car{
     String type;
     int status;
     float milage;
+    public Car(String brand,int cc,String name){
+    	this(brand,name,0);
+    	System.out.println("haha");
+    }
     
     public Car(String brand,int cc,String name,String type){
         this.brand=brand;
