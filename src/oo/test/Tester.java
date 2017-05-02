@@ -3,6 +3,7 @@ package oo.test;
 import java.util.ArrayList;
 
 import oo.abstraction.Car;
+import oo.stati.Student;
 
 public class Tester {
 
@@ -22,5 +23,6 @@ a.set(2,"885");
 System.out.println(a);
 String data =(String)a.get(0);
 //int n=(int)a.get(4);
+Student stu=new Student(0, 0, 0);
 }
 }
