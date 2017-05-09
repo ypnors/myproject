@@ -26,4 +26,8 @@ public class Student {
 	
 	}
 
+	public String toString(){
+		return
+		"eng:"+english+"\n"+"chinese:"+chinese+"\n"+"math:"+math;
+	}
 }

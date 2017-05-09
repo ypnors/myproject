@@ -8,6 +8,8 @@ import oo.stati.Student;
 public class Tester {
 
 	public static void main(String[] args) {
+		Student stu=new Student();
+		System.out.println(stu);
 		Car c=new Car("XX" , null, 2000);
 //String[] numbers={"331","821","886","554"};
 ArrayList<String> a =new ArrayList();

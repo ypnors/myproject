@@ -6,6 +6,7 @@ public GraduateStudent (int english,int math,int chinese){
 	this.english=english;
 	this.math=math;
 	this.chinese=chinese;
+	
 }
 @Override
 public void print(){
