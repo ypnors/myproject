@@ -4,8 +4,13 @@ public class Member {
 String id;
 private int age;
 String name;
-public Member(){
+public Member(String name){
 	System.out.println("Member constructor");
+	this.name=name;
+}
+
+public Member(){
+	
 }
 
 void setAge(int age){
@@ -17,5 +22,6 @@ void setAge(int age){
 public int getAge(){
 	return age;
 }
+
 }
 
